@@ -1,0 +1,32 @@
+.sort-menu-nav-scroll {
+    width:calc(100% - 2px);
+    height:100%;
+    background: white;
+    margin: 2px 0px 0px 2px;
+    overflow:hidden;
+    .sort-menu-nav-list{
+        position: relative;
+        .sort-menu-nav{
+            width:100%; 
+            height:45px;
+            text-align: center;
+            line-height: 45px;
+            p{
+                font-size:14px;
+            }
+        }
+    }
+}
+
+//action
+.sort-menu-nav-scroll {
+    .sort-menu-nav-list{
+        .nav-action{
+            background: #eff4fa;
+            p{
+                color:#e53d30;
+            }
+        }
+    }
+}
+
