@@ -5,15 +5,16 @@ class Scroll extends React.Component {
     // constructor(props){
     //     super()
     // }
-     
-    componentDidMount(){
-        this.scroll = new CScroll(this.refs.scroll,this.props.options)
-        if(this.props.getScroll) this.props.getScroll(this.scroll)
+
+    componentDidMount() {
+
+        this.scroll = new CScroll(this.refs.scroll, this.props.options)
+        if (this.props.getScroll) this.props.getScroll(this.scroll)
     }
-    componentDidUpdate(){
+    componentDidUpdate() {
         this.scroll.refresh()
     }
-    render(){
+    render() {
         return (
             <div className={this.props.className} style={this.props.style} ref='scroll'>
                 {
