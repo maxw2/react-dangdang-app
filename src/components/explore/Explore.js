@@ -1,8 +1,15 @@
 import React from 'react'
+import loading from './Dual Ring-1s-200px.gif'
 
-const Explore = ()=>{
+import './Explore.scss'
+
+const Explore = () => {
     return (
-        <div>Explore</div>
+        <div className='explore'>
+            <div className='loading'>
+                <img src={loading} alt='loading' />
+            </div>
+        </div>
     )
 }
 
