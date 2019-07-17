@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-dangdang-app/precache-manifest.07d9703ba6d60557b2801384d87d1574.js"
+  "/react-dangdang-app/precache-manifest.9f6e2b234d39eea1d959a5486cfa05d0.js"
 );
 
 self.addEventListener('message', (event) => {
